@@ -73,8 +73,10 @@ The following examples are all valid when specifying dependencies.
 
 The pipeline will ajust the dependencies names so they are defined with the full job names under the hoods.
 
-## Pipeline
+## Links
 
-Please check [here](docker-images-pipeline) the details of the docker-mimages pipeline.
+- [Details of the docker-mimages pipeline](docker-images-pipeline)
+- [Jobs related to this POC](docker-images-jenkins)
 
 [docker-images-pipeline]:https://github.com/PaddleHQ/paddle-jenkins-library/blob/master/vars/dockerBaseImagePipeline.groovy
+[docker-images-jenkins]:https://development-athena.paddle.dev/job/paddlehq/job/docker-images/
