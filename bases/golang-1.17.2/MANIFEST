@@ -1,0 +1,5 @@
+version=0.0.1
+registry=165976801113.dkr.ecr.us-east-1.amazonaws.com
+image_name=base-test
+platforms=linux/amd64
+tags=test,fuchs
