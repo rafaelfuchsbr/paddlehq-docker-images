@@ -39,10 +39,4 @@ ${IMAGE_DIRS}:
 	@./scripts/process_folder.sh $(FOLDER)
 
 # Specify dependencies between images
-bases/golang: bases/tools
-services/go-image: bases/alpine
-services/my-node-service: bases/cool-node
-services/my-rust-service: bases/fancy-rust
-services/my-python-service: bases/nice-python
-
-
+bases/golang-1.17.2: bases/tools
